@@ -14,7 +14,7 @@ either change the default python verision to python3 or download a newer version
 
 ### Prepare the dataset
 
-- GTA Multi-Vehicle Dataset: Download from google drive [here](https://drive.google.com/file/d/10gjaHto7ZVGs4A2EEVmoLhfUxTDAF3Kw/view?usp=sharing).
+- GTA Multi-Vehicle Dataset: Download from google drive [here](https://drive.google.com/file/d/1lqUT0dF5CGBOVhoOGQ3KlpuUgGL6hgZY/view?usp=sharing).
 - Carla Multi-Vehicle Dataset: To be uploaded.
 
 Unzip the dataset to a directory and the leave the folder structure unchanged.
