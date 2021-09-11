@@ -27,6 +27,8 @@ See the Usage section. See the [wiki](https://github.com/jbehley/point_labeler/w
  
 <img src="https://user-images.githubusercontent.com/11506664/63230808-340d5680-c212-11e9-8902-bc08f0f64dc8.png" width=500>
 
+## Overview
+
  Given the poses of a KITTI point cloud dataset, we load tiles of overlapping point clouds. Thus, multiple point clouds are labeled at once in a certain area. 
 
 ## Features
