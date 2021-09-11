@@ -10,11 +10,11 @@ Note: If you encounter the following error
 ```
 File "/usr/lib/python2.7/dist-packages/catkin_pkg/package.py", line 457, in parse_package_string assert pkg.package_format in [1, 2], "Unable to handle package.xml format version '%d', please update catkin_pkg (e.g. on Ubuntu/Debian use: sudo apt-get update && sudo apt-get install --only-upgrade python-catkin-pkg)" % pkg.package_format
 ```
-either change the default python verision to python3 or download a newer version `python-catkin-pkg` from the website.
+either change the default python verision to python3 or download a newer version `python-catkin-pkg` from the (website)[https://catkin-tools.readthedocs.io/en/latest/installing.html].
 
 ### Prepare the dataset
 
-- GTA Multi-Vehicle Dataset: Download from google drive [here]().
+- GTA Multi-Vehicle Dataset: Download from google drive [here](https://drive.google.com/file/d/10gjaHto7ZVGs4A2EEVmoLhfUxTDAF3Kw/view?usp=sharing).
 - Carla Multi-Vehicle Dataset: To be uploaded.
 
 Unzip the dataset to a directory and the leave the folder structure unchanged.
