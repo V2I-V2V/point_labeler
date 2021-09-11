@@ -1,5 +1,28 @@
 # Point Cloud Labeling Tool
 
+## Updated Instructions
+
+### Install the labeler application
+
+Follow the installation process (dependency and build section) to install the point cloud labeler.
+
+Note: If you encounter the following error 
+```
+File "/usr/lib/python2.7/dist-packages/catkin_pkg/package.py", line 457, in parse_package_string assert pkg.package_format in [1, 2], "Unable to handle package.xml format version '%d', please update catkin_pkg (e.g. on Ubuntu/Debian use: sudo apt-get update && sudo apt-get install --only-upgrade python-catkin-pkg)" % pkg.package_format
+```
+either change the default python verision to python3 or download a newer version `python-catkin-pkg` from the website.
+
+### Prepare the dataset
+
+- GTA Multi-Vehicle Dataset: Download from google drive [here]().
+- Carla Multi-Vehicle Dataset: To be uploaded.
+
+Unzip the dataset to a directory and the leave the folder structure unchanged.
+
+### Laber Usage
+
+See the Usage section. See the [wiki](https://github.com/jbehley/point_labeler/wiki) for more information on the usage and other details. (Some useful functionalities are `show single scan', `Overwitre labeled points`, brush and polygon labeler, all of these are in different sections of the GUI).
+
  Tool for labeling of a single point clouds or a stream of point clouds. 
  
 <img src="https://user-images.githubusercontent.com/11506664/63230808-340d5680-c212-11e9-8902-bc08f0f64dc8.png" width=500>
