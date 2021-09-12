@@ -15,9 +15,12 @@ either change the default python verision to python3 or download a newer version
 ### Prepare the dataset
 
 - GTA Multi-Vehicle Dataset: Download from google drive [here](https://drive.google.com/file/d/1lqUT0dF5CGBOVhoOGQ3KlpuUgGL6hgZY/view?usp=sharing).
-- Carla Multi-Vehicle Dataset: To be uploaded.
+- Carla Multi-Vehicle Dataset: Download from [here](https://drive.google.com/file/d/1uaWPO7BQ3cejPiirFQFUZfi-T2Kdex-2/view?usp=sharing).
 
 Unzip the dataset to a directory and the leave the folder structure unchanged.
+
+#### Merged point cloud
+Currently, the dataset contains merged point clouds and labeling on that will need careful inspection of LiDAR points (overlapping, shifting of some objects is possible). Another potential way is to label LiDAR Point Clouds collected from each individual car and then merge them. It will be easier to label point clouds collected by each car but will need more iterations (on different cars).
 
 ### Laber Usage
 
@@ -26,6 +29,8 @@ See the Usage section. See the [wiki](https://github.com/jbehley/point_labeler/w
  Tool for labeling of a single point clouds or a stream of point clouds. 
  
 <img src="https://user-images.githubusercontent.com/11506664/63230808-340d5680-c212-11e9-8902-bc08f0f64dc8.png" width=500>
+
+
 
 ## Overview
 
