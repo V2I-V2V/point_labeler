@@ -22,7 +22,7 @@ Unzip the dataset to a directory and the leave the folder structure unchanged.
 #### Merged point cloud
 Currently, the dataset contains merged point clouds and labeling on that will need careful inspection of LiDAR points (overlapping, shifting of some objects is possible). Another potential way is to label LiDAR Point Clouds collected from each individual car and then merge them. It will be easier to label point clouds collected by each car but will need more iterations (on different cars).
 
-### Laber Usage
+### Labeler Usage
 
 See the Usage section. See the [wiki](https://github.com/jbehley/point_labeler/wiki) for more information on the usage and other details. (Some useful functionalities are `show single scan`, `Overwitre labeled points`, brush and polygon labeler, all of these are in different sections of the GUI).
 
